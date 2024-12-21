@@ -37,6 +37,8 @@ async function searchImages() {
     imageWrapper.appendChild(image);
     imageWrapper.appendChild(imageLink);
     searchResults.appendChild(imageWrapper);
+
+    document.getElementById('search-input').value = "";
   });
 
   // Show the "Show More" button only if there are more pages to load
