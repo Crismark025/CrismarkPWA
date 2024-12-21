@@ -24,8 +24,8 @@ form {
   margin-bottom: 60px;
 }
 #search-input{
-  width: 60px;
-  max-width: 400px;
+  width: 100px;
+  max-width: 900px;
   padding: 10px 20px;
   border: none;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
@@ -55,9 +55,12 @@ form {
 }
 
 .search-result{
-  margin-bottom: 60px;
-  width: 30%;
+  width: 60%;
+  margin: 0 auto;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   overflow: hidden;
